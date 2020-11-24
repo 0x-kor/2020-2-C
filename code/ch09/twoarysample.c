@@ -10,13 +10,13 @@ int main() {
 	int rowsize = sizeof(abc) / sizeof(abc[0]);
 	int colsize = sizeof(abc[0]) / sizeof(abc[0][0]);
 
-	printf("°¢ ÇàÀÇ Ã¹ ÁÖ¼Ò Ãâ·Â: \n");
+	printf("ê° í–‰ì˜ ì²« ì£¼ì†Œ ì¶œë ¥: \n");
 	for (int i = 0; i < rowsize; i++)
-		printf("%d", abc[i]);
+		printf("%d ", abc[i]);
 	printf("\n\n");
 
-	printf("2Çà ¿ø¼ÒÀÇ ÁÖ¼Ò¿Í °ª Ãâ·Â: \n");
-	int* p = abc[i];
+	printf("2í–‰ ì›ì†Œì˜ ì£¼ì†Œì™€ ê°’ ì¶œë ¥: \n");
+	int* p = abc[1];
 	for (int i = 0; i < colsize; i++) {
 		printf("%d ", p);
 		printf("%d\n", *p++);
