@@ -5,11 +5,11 @@ int main(void) {
 	char ch = 'A';
 	int *ptrint = &data;
 	char *ptrchar = &ch;
-	printf("°£Á¢ÂüÁ¶ Ãâ·Â: %d %c\n", *ptrint, &ptrchar);
+	printf("ê°„ì ‘ì°¸ì¡° ì¶œë ¥: %d %c\n", *ptrint, *ptrchar);
 
 	*ptrint = 200;
 	*ptrchar = 'B';
-	printf("Á÷Á¢ÂüÁ¶ Ãâ·Â: %d %c\n", data, ch);
+	printf("ì§ì ‘ì°¸ì¡° ì¶œë ¥: %d %c\n", data, ch);
 
 	return 0;
 }
