@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <math.h> //¼öÇĞ°ú °ü·ÃµÈ ´Ù¾çÇÑ ÇÔ¼öÀÇ Çì¾îÆÄÀÏ
+#include <math.h> //ìˆ˜í•™ê³¼ ê´€ë ¨ëœ ë‹¤ì–‘í•œ í•¨ìˆ˜ì˜ í—¤ì–´íŒŒì¼
 
 int main(void) {
-	printf("   i   iÁ¦°ö   i¼¼Á¦°ö   Á¦°ö±Ù(sqrt)\n");
+	printf("   i   iì œê³±   iì„¸ì œê³±   ì œê³±ê·¼(sqrt)\n");
 	printf("---------------------------------------------\n");
 	for (int i = 3; i < 7; i++)
 		printf("%3d %7.1f %9.1f %9.1f\n", i, pow(i, 2), pow(i, 3), sqrt(i));
@@ -10,7 +10,7 @@ int main(void) {
 
 	printf("exp(1.0) == %5.2f, ", exp(1, 0));
 	printf("pow(2.72, 1.0) == %5.2f, ", pow(2.72, 1.0));
-	printf("sqrt(49) == %5.2f, ", sqrt(49));
+	printf("sqrt(49) == %5.2f\n", sqrt(49));
 	printf("abs(-10) == %3d, ", abs(-10));
 	printf("ceil(7.1) == %5.2f, ", ceil(7.1));
 	printf("floor(6.9) == %5.2f, ", floor(6.9));
