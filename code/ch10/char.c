@@ -1,33 +1,33 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-#include <ctype.h> //¹®ÀÚ °ü·Ã ÇÔ¼ö´Â ctype.h¿¡ ¸ÅÅ©·Î·Î Á¤ÀÇ
+#include <ctype.h> //ë¬¸ì ê´€ë ¨ í•¨ìˆ˜ëŠ” ctype.hì— ë§¤í¬ë¡œë¡œ ì •ì˜
 
 void print2char(char);
 
 int main(void) {
 	char ch;
 
-	printf("¾ËÆÄºª(Á¾·áx) ¶Ç´Â ´Ù¸¥ ¹®ÀÚ ÀÔ·ÂÇÏ¼¼¿ä.\n");
+	printf("ì•ŒíŒŒë²³(ì¢…ë£Œx) ë˜ëŠ” ë‹¤ë¥¸ ë¬¸ì ì…ë ¥í•˜ì„¸ìš”.\n");
 
 	do {
-		printf("¹®ÀÚ ÀÔ·Â ÈÄ Enter: ");
+		printf("ë¬¸ì ì…ë ¥ í›„ Enter: ");
 		scanf("%c", &ch);
 		getchar();
 		if (isalpha(ch))
 			print2char(ch);
 		else
-			printf("ÀÔ·Â: %c\n", ch);
-	} while (ch != 'x' && ch != 'X'); //x(´ë¼Ò¹®ÀÚ ±¸ºĞx)°¡ ÀÔ·ÂµÇ¸é Á¾·á
+			printf("ì…ë ¥: %c\n", ch);
+	} while (ch != 'x' && ch != 'X'); //x(ëŒ€ì†Œë¬¸ì êµ¬ë¶„x)ê°€ ì…ë ¥ë˜ë©´ ì¢…ë£Œ
 
 	return 0;
 }
 
 void print2char(char ch) {
-	if (isuper(ch))
-		printf("ÀÔ·Â: %c, º¯È¯: %c\n", ch, tolower(ch));
+	if (isupper(ch))
+		printf("ì…ë ¥: %c, ë³€í™˜: %c\n", ch, tolower(ch));
 	else
-		printf("ÀÔ·Â: %c, º¯È¯: %c\n", ch, toupper(ch));
+		printf("ì…ë ¥: %c, ë³€í™˜: %c\n", ch, toupper(ch));
 
 	return;
 }
