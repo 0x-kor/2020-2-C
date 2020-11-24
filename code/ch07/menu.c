@@ -5,13 +5,13 @@ int main(void) {
 	int input;
 
 	do {
-		printf("\t [1] ÇÑ½Ä\n");
-		printf("\t [2] ¾ç½Ä\n");
-		printf("\t [3] ºĞ½Ä\n");
-		printf("\t [4] ±âÅ¸\n");
-		printf("¸Ş´º ¹øÈ£ ¼±ÅÃ ÈÄ [Enter] :");
+		printf("\t [1] í•œì‹\n");
+		printf("\t [2] ì–‘ì‹\n");
+		printf("\t [3] ë¶„ì‹\n");
+		printf("\t [4] ê¸°íƒ€\n");
+		printf("ë©”ë‰´ ë²ˆí˜¸ ì„ íƒ í›„ [Enter] :");
 		scanf("%d", &input);
-		printf("¼±ÅÃ ¸Ş´º %d\n, input");
+		printf("ì„ íƒ ë©”ë‰´ %d\n", input);
 
 		if (input <= 4 && input >= 1)
 			break;
