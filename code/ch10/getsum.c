@@ -6,10 +6,10 @@ int getsum(int);
 int main(void) {
 	int max = 0;
 
-	printf("1¿¡¼­ n±îÁöÀÇ ÇÕÀ» ±¸ÇÒ nÀ» ÀÔ·ÂÇÏ½Ã¿À. >> ");
+	printf("1ì—ì„œ nê¹Œì§€ì˜ í•©ì„ êµ¬í•  nì„ ì…ë ¥í•˜ì‹œì˜¤. >> ");
 	scanf("%d", &max);
 
-	printf("1¿¡¼­ %d±îÁöÀÇ ÇÕ: %d\n", getsum(max));
+	printf("1ì—ì„œ %dê¹Œì§€ì˜ í•©: %d\n", max, getsum(max));
 
 	return 0;
 }
