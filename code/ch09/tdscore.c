@@ -8,7 +8,7 @@ int main(void) {
 
 	int score[][COLSIZE] = { 95, 85, 90, 88, 86, 90, 88, 78 };
 
-	printf("        ¡ﬂ∞£     ±‚∏ª\n");
+	printf("        Ï§ëÍ∞Ñ     Í∏∞Îßê\n");
 	printf("------------------------------------\n");
 	for (int i = 0; i < ROWSIZE; i++) {
 		for (int j = 0; j < COLSIZE; j++) {
@@ -23,9 +23,9 @@ int main(void) {
 	}
 
 	printf("-----------------------------------\n");
-	printf("∆Ú±’: %7.2f %7.2f %7.2f\n", (double)midsum / ROWSIZE, (double)finalsum / ROWSIZE);
-	printf("\nº∫¿˚¿« «’¿∫ %d¿Ã∞Ì ", sum);
-	printf("∆Ú±’¿∫ %.2f¿Ã¥Ÿ.\n", (double)sum / (ROWSIZE * COLSIZE));
+	printf("ÌèâÍ∑†: %7.2f %7.2f\n", (double)midsum / ROWSIZE, (double)finalsum / ROWSIZE);
+	printf("\nÏÑ±Ï†ÅÏùò Ìï©ÏùÄ %dÏù¥Í≥† ", sum);
+	printf("ÌèâÍ∑†ÏùÄ %.2fÏù¥Îã§.\n", (double)sum / (ROWSIZE * COLSIZE));
 
 	return 0;
 }
