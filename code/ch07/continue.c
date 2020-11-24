@@ -3,8 +3,8 @@
 int main(void) {
 	const int MAX = 15;
 
-	printf("1¿¡¼­ %d±îÁö Á¤¼ö Áß¿¡¼­ 3À¸·Î ³ª´©¾î ¶³¾îÁöÁö ¾Ê´Â ¼ö \n", MAX);
-	for (int i = 1; i <= MAX, i++) {
+	printf("1ì—ì„œ %dê¹Œì§€ ì •ìˆ˜ ì¤‘ì—ì„œ 3ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ì§€ ì•ŠëŠ” ìˆ˜ \n", MAX);
+	for (int i = 1; i <= MAX; i++) {
 		if (i % 3 == 0)
 			continue;
 		printf("%3d", i);
