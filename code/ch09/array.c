@@ -6,9 +6,9 @@ int main(void) {
 
 	printf("score: %u, &score[0]: %u\n", score, &score[0]);
 
-	printf("*score: %u, &score[0]: %u\n", *score, &score[0]);
+	printf("*score: %u, &score[0]: %u\n", *score, score[0]);
 
-	printf("梅磊  林家   历厘蔼\n");
+	printf("脙路脌脷  脕脰录脪   脌煤脌氓掳陋\n");
 	for (int i = 0; i < SIZE; i++)
 		printf("%2d %10u %6d\n", i, (score + i), *(score + i));
 
