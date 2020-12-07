@@ -3,7 +3,7 @@
 
 int main(void) {
 	int num = 13;
-	printf("Á¤¼ö %dÀÇ %dºñÆ® ³»ºÎ°ª :\n", num, TOTAL_BIT);
+	printf("정수 %d의 %d비트 내부값 :\n", num, TOTAL_BIT);
 
 	for (int i = TOTAL_BIT - 1; i >= 0; i--)
 		printf("%d", num >> i & 1);
