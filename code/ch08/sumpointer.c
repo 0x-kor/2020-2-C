@@ -6,7 +6,7 @@ int main(void) {
 	double* px = &x;
 	double* py = &y;
 
-	printf("╣н ╫г╪Ж ют╥б :");
+	printf("К▒░ Л▀╓Л┬≤ Л·┘К═╔ :");
 	scanf("%lf %lf", px, py);
 	printf("%.2f + %.2f = %.2f\n", *px, *py, *px + *py);
 
