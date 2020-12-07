@@ -5,7 +5,7 @@ int main(void) {
 	int *ptrint;
 	ptrint = &data;
 
-	printf("º¯¼ö¸í ÁÖ¼Ò°ª         ÀúÀå°ª\n");
+	printf("ë³€ìˆ˜ëª… ì£¼ì†Œê°’         ì €ìž¥ê°’\n");
 	printf("---------------------------------\n");
 	printf("  data  %p  %8d\n", &data, data);
 	printf("ptrint  %p  %p\n", &ptrint, ptrint);
