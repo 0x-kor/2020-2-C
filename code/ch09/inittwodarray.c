@@ -4,9 +4,9 @@
 #define COLSIZE 3
 
 int main(void) {
-	int td[][3] = { { 1 }, { 1, 2, 3 } };
+	int td[][3] = { { i }, { 1, 2, 3 } };
 
-	printf("¹Ýº¹¹® for¸¦ ÀÌ¿ëÇÏ¿© Ãâ·Â\n");
+	printf("반복문 for를 이용하여 출력\n");
 	for (int i = 0; i < ROWSIZE; i++) {
 		for (int j = 0; j < COLSIZE; j++)
 			printf("%d ", td[i][j]);
