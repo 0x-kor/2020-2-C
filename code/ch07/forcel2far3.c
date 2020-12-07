@@ -5,7 +5,7 @@
 int main(void) {
 	double celcius = 12.46;
 
-	printf("   ¼·¾¾(C)   È­¾¾(F)\n");
+	printf("   ì„­ì”¨(C)   í™”ì”¨(F)\n");
 	printf("----------------------------\n");
 
 	for (int i = 1; i <= MAX; i++, celcius += INCREMENT) {
