@@ -8,7 +8,7 @@ int main(void) {
 	double x = 5.83;
 	double *px = &x;
 
-	printf("º¯¼ö¸í  ÁÖ¼Ò°ª  ÀúÀå°ª\n");
+	printf("ë³€ìˆ˜ëª…  ì£¼ì†Œê°’  ì €ìž¥ê°’\n");
 	printf("----------------------------------\n");
 	printf("%3s %p %9c\n", "c", pc, c);
 	printf("%3s %p %9d\n", "m", pm, m);
