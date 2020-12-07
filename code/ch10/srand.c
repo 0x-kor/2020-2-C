@@ -8,7 +8,7 @@ int main(void) {
 	long seconds = (long)time(NULL);
 	srand(seconds);
 	
-	printf("1 ~ %5d »çÀÌÀÇ ³­¼ö 5°³: \n", MAX);
+	printf("1 ~ %5d ì‚¬ì´ì˜ ë‚œìˆ˜ 5ê°œ: \n", MAX);
 	for (int i = 0; i < 5; i++)
 		printf("%5d ", rand() % MAX + 1);
 	puts("");
