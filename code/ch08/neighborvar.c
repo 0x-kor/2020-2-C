@@ -3,7 +3,7 @@
 int main(void) {
 	int a = 1, b = 3, c = 6;
 
-	printf("º¯¼ö¸í  ÀúÀå°ª  ÁÖ¼Ò°ª  \n");
+	printf("ë³€ìˆ˜ëª…  ì €ìž¥ê°’  ì£¼ì†Œê°’  \n");
 	printf("------------------------------\n");
 	printf("  c   %d   %p\n", c, &c);
 	printf("  b   %d   %p\n", b, &b);
