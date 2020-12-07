@@ -8,7 +8,7 @@ loop :
 	if (++count <= 10)
 		goto loop;
 
-	printf("\nÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù. \n");
+	printf("\ní”„ë¡œê·¸ëž¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤. \n");
 
 	return 0;
 }
