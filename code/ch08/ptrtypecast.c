@@ -5,7 +5,7 @@ int main(void) {
 	int *pi = &value;
 	char* pc = (char*)&value;
 
-	printf("º¯¼ö¸í   ÀúÀå°ª    ÁÖ¼Ò°ª\n");
+	printf("ë³€ìˆ˜ëª…   ì €ìž¥ê°’    ì£¼ì†Œê°’\n");
 	printf("-------------------------------\n");
 	printf(" value  %0#x  %u\n", value, pi);
 
