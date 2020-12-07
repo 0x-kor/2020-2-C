@@ -6,9 +6,9 @@ int main(void) {
 
 	printf("score: %u, &score[0]: %u\n", score, &score[0]);
 
-	printf("*score: %u, &score[0]: %u\n", *score, score[0]);
+	printf("*score: %u, &score[0]: %u\n", *score, &score[0]);
 
-	printf("Ã·ÀÚ  ÁÖ¼Ò   ÀúÀå°ª\n");
+	printf("첨자  주소   저장값\n");
 	for (int i = 0; i < SIZE; i++)
 		printf("%2d %10u %6d\n", i, (score + i), *(score + i));
 
