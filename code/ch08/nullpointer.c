@@ -5,7 +5,7 @@ int main(void) {
 	ptr1 = NULL;
 
 	printf("%p\n", ptr1);
-	//printf("%p\n",ptr2); = ¿À·ù¹ß»ı
+	//printf("%p\n",ptr2); = ì˜¤ë¥˜ë°œìƒ
 	printf("%d\n", data);
 
 	return 0;
